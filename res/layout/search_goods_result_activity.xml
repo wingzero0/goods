@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  	 android:background="@android:color/white"
+  android:layout_height="fill_parent">
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1">
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+		 
+			
+
+			
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="30dp">
+				<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				 > 
+			
+			
+
+				<ImageView  
+				android:layout_width="160dip" 
+				android:layout_height="160dip"
+ 				android:src="@drawable/icon_1"
+ 				android:id="@+id/photo"
+				 />
+				 <LinearLayout
+					android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				 >
+				<TextView  
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="@color/gray" 
+		     android:layout_marginLeft="30dp"
+				android:text="retake" 
+				 android:textAppearance="?android:attr/textAppearanceMedium" />
+				<Button
+				     android:layout_marginTop="10dp"
+				   android:layout_marginLeft="30dp"
+					android:id="@+id/retake"
+					android:layout_width="31dip"
+					android:layout_height="30dip"
+					android:background="@drawable/de_camera_button"
+				  />
+				</LinearLayout>
+				</LinearLayout>	
+				<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dip">
+						 
+				<TextView  
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="@color/gray" 
+				android:layout_marginRight="10dip"
+				android:text="BarCode" 
+				 android:textAppearance="?android:attr/textAppearanceMedium" />
+				
+				<EditText android:hint="123456" 
+				android:id="@+id/barcodeid" 
+				android:layout_width="fill_parent" 
+ 				android:singleLine="true"
+				android:layout_height="wrap_content" />
+				</LinearLayout>		
+			 
+				 <LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dip">
+						 
+				<TextView  
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="@color/gray" 
+				android:layout_marginRight="10dip"
+				android:id="@+id/people" 
+				android:text="people" 
+			 android:textAppearance="?android:attr/textAppearanceMedium" />
+				<TextView  
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="@color/gray" 
+				android:id="@+id/comment" 
+				android:layout_marginRight="10dip"
+				android:text="comment" 
+				  android:textAppearance="?android:attr/textAppearanceMedium" />
+				</LinearLayout>	
+				
+ 
+				<Button
+				 	android:background="@drawable/button"	
+					android:id="@+id/more"
+					android:text="more" 
+					android:textColor="@color/white" 
+					  android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width ="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="right"
+			 />
+ 
+			</LinearLayout>	
+			
+ 
+	</LinearLayout>
+	</ScrollView>
+<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center|center_vertical"
+		android:background="@android:drawable/bottom_bar">
+		<Button
+			android:text="Done"
+			android:id="@+id/yes"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" />
+		<Button
+			android:text="Cancel"
+		android:id="@+id/no"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" />
+	</LinearLayout>
+</LinearLayout>
+

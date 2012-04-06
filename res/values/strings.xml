@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="social_network">social network</string>
+     <string name="my_goods">my goods</string>
+    <string name="add_goods">add goods</string>
+   	<string name="app_name">goods</string>
+   	   	<string name="scan_anything">scan anything</string>
+   <string name="result_failed">No barcode found</string>
+  <string name="result_failed_why">"The user gave up and pressed Back"</string>
+  <string name="result_succeeded">Found barcode</string>
+   <string name="No_thanks">"No thanks"</string>
+  <string name="Share">Share</string>
+<color name="white">#ffffff</color>
+<color name="black">#000000</color>
+<string name="logout">Logout</string>
+
+</resources>

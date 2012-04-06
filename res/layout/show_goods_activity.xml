@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  	 android:background="@android:color/white"
+  android:layout_height="fill_parent">
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1">
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+		 
+			
+
+			
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="30dp">
+	 			<TextView  
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="@color/gray" 
+				android:layout_marginRight="10dip"
+				android:text="Name"
+				 android:id="@+id/Name"
+				 android:layout_gravity="center"
+				 android:textAppearance="?android:attr/textAppearanceLarge" />
+				<ImageView  
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+ 
+ 				android:id="@+id/photo"
+ 			android:layout_gravity="center"
+				 />
+		 
+ 
+						 
+	 
+				<Button
+				    	android:layout_marginTop="10dip"
+				 	 	android:layout_gravity="center"
+				 	 	 	android:background="@drawable/button"	
+					android:id="@+id/search"
+						android:layout_width="60dip"
+					android:layout_height="48dip"
+					android:text="search" 
+			   />
+				 
+			 
+			 
+				 <LinearLayout
+				     android:gravity="center"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dip">
+						 
+				<TextView  
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="@color/gray" 
+				android:layout_marginRight="10dip"
+				android:id="@+id/people" 
+				android:text="people" 
+			 android:textAppearance="?android:attr/textAppearanceMedium" />
+				<TextView  
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="@color/gray" 
+				android:id="@+id/comment" 
+				android:layout_marginRight="10dip"
+				android:text="comment" 
+				  android:textAppearance="?android:attr/textAppearanceMedium" />
+				<Button
+				 	android:background="@drawable/button"	
+					android:id="@+id/more"
+					android:text="more"
+						android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+			 	/>
+				</LinearLayout>	
+ 
+			</LinearLayout>	
+			
+ 
+	</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>
+
